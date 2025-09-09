@@ -45,7 +45,7 @@ Other typical Windows directories like AppData, Documents, Downloads, etc.
 
 The presence of NTUSER.DAT is a major clue, as this file stores user-specific registry data.
 
-##Determining the VNC Software
+## Determining the VNC Software
 The hint mentions "every old software known to man".
 From this, we infer that the challenge involves older VNC software, such as:
 
