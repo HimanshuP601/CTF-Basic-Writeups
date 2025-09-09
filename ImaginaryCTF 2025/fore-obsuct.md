@@ -62,7 +62,7 @@ We use chntpw (a registry hive editor) to explore NTUSER.DAT:
 ```bash
 chntpw -e NTUSER.DAT
 ```
-###Navigating the Registry
+### Navigating the Registry
 
 1. List root keys:
 ```bash
@@ -101,7 +101,7 @@ The encrypted password is:
 ```bash
 7E 9B 31 12 48 B7 C8 A8
 ```
-##Decrypting the TightVNC Password
+## Decrypting the TightVNC Password
 TightVNC uses a fixed DES key to encrypt its password.
 Credit to the following GitHub gist for the decryption method:
 https://gist.github.com/jborean93/6168da85e5b3742d943300dd1176a63d
@@ -139,7 +139,7 @@ Output:
 TightVNC password: cheeseburger
 ```
 ---
-##Final Flag
+## Final Flag
 The challenge asks us to wrap the password in ictf{} format:
 ```bash
 ictf{cheeseburger}
