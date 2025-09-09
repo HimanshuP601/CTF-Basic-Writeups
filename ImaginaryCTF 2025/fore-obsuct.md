@@ -8,6 +8,8 @@ We are provided with a challenge file named `objective I installed.txt`, which c
 objective: I installed every old software known to man...
 The flag is the VNC password, wrapped in ictf{}.
 
+attachment: /assets/Users.zip
+
 The goal is to **recover the VNC password** and submit it in the format `ictf{password}`.
 
 ---
