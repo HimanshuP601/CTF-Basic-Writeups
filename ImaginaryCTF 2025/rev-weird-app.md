@@ -16,7 +16,7 @@ The provided attachment contained a simple `.apk` file.
 
 **Place this image here:**  
 
-![Jumbled Flag](./assets/imag-apk.jpeg)
+![Jumbled Flag](../assets/imag-apk.jpeg)
 
 *This image shows the extracted `.apk` file.*
 
