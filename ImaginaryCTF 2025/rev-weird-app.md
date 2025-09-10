@@ -2,7 +2,7 @@
 # rev-weird-app
 
 **Category:** Reverse Engineering  
-**Attachment:** [/assets/weird.zip](./assets/weird.zip)
+**Attachment:** [/assets/weird.zip](../assets/weird.zip)
 
 ---
 
