@@ -2,7 +2,7 @@
 # rev-weird-app
 
 **Category:** Reverse Engineering  
-**Attachment:** [/assets/rev-weird.zip](./assets/rev-weird.zip)
+**Attachment:** [/assets/weird.zip](./assets/weird.zip)
 
 ---
 
@@ -15,9 +15,9 @@ We are given an attachment containing a suspicious file. The goal is to recover 
 The provided attachment contained a simple `.apk` file.  
 
 **Place this image here:**  
-```
+
 ![Jumbled Flag](./assets/imag-apk.jpeg)
-```
+
 *This image shows the extracted `.apk` file.*
 
 ---
