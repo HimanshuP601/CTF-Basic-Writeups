@@ -6,7 +6,7 @@
 We are given a `.wav` file and the following hint:
 not a steg challenge i promise
 
-Attachments provided: /assets/wave.wav
+**Attachment:** [/assets/wave.wav](../assets/wave.wav)
 
 
 The goal is to find the flag hidden within this file.
