@@ -9,7 +9,7 @@ The goal is to analyze the given USB capture file and recover the **flag** hidde
 ---
 
 ## Attachments  
-- Challenge file: [`usbstorage.pcapng.gz`](/assets/usbstorage.pcapng.gz)  
+- Challenge file: [`usbstorage.pcapng.gz`](../assets/usbstorage.pcapng.gz)  
 
 ---
 
